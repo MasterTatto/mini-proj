@@ -32,4 +32,11 @@ a:hover {
 	background-size: cover;
 	background-position: center center;
 	border-radius: 70px;
+	transition: all 0.3s;
+}
+.wrap {
+	transform: scale(1.05);
+}
+.wrapI {
+	transform: scale(0.5);
 }

@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	height: 100%;
+	width: 100%;
+	background: url(https://wallpaperscave.com/images/original/17/12-24/dark-landscape-5637.jpg);
+	background-size: cover;
+	font-family: 'Montserrat';
+}
+.wrapper {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: white;
+}
+.wrapper h1 {
+	font-size: 60px;
+	margin: 0px;
+	letter-spacing: 10px;
+	color: rgb(246, 3, 3);
+	text-shadow: 5px 3px 8px #fff;
+	margin-bottom: 50px;
+}
+.wrapper h2 {
+	margin: 0;
+	font-size: 20px;
+	font-weight: 500;
+	font-style: italic;
+}
+.count {
+	margin: 40px 0;
+}
+.countd {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	border: 2px solid #fff;
+	margin: 20px 30px;
+	font-size: 12px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.countd span {
+	display: block;
+	font-size: 26px;
+	margin-top: 14px;
+}
+@media screen and (max-width: 520px) {
+	body {
+		background-repeat: no-repeat;
+		background-size: 400%;
+		background-position: 50% 0px;
+	}
+}
