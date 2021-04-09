@@ -13,7 +13,7 @@ body {
 	position: absolute;
 	right: 0;
 	bottom: 0;
-	/* display: flex; */
+	display: flex;
 	min-width: 100%;
 	min-height: 100%;
 	height: auto;
@@ -52,4 +52,13 @@ a:hover {
 }
 .wrapI {
 	transform: scale(0.5);
+}
+
+@media screen and (max-width: 520px) {
+	.bgvideo {
+		display: none;
+	}
+	body {
+		background-image: url(https://downloops.com/wp-content/uploads/edd/2017/05/Starfield-Stars-Universe-FlyBy-Motion-Background-Video-Loop-SampleStill-1.jpg);
+	}
 }
