@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 28px;
+}
+body {
+	padding-top: 120px;
+}
+.slider {
+	position: relative;
+	max-width: 600px;
+	height: 375px;
+	overflow: hidden;
+	margin: auto;
+}
+.sliders {
+	max-width: 2400px;
+	display: flex;
+}
+.slide {
+	max-width: 600px;
+	transition: all 1s;
+}
+.btnRight,
+.btnLeft {
+	position: absolute;
+	width: 60px;
+	height: 375px;
+	top: 0;
+	line-height: 375px !important;
+	text-align: center;
+	cursor: pointer;
+	transition: 0.5s;
+	color: #fff;
+}
+.btnRight:hover,
+.btnLeft:hover {
+	background-color: #000000b3;
+}
+ion-icon {
+	font-size: 40px;
+}
+.btnLeft {
+	left: 0;
+}
+.btnRight {
+	right: 0;
+}
+img {
+	max-width: 600px;
+	display: flex;
+}
+
+.home {
+	margin: 50px auto;
+	width: 100px;
+}
