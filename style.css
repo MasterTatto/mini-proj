@@ -6,8 +6,21 @@
 body {
 	display: flex;
 	padding: 0 25px;
-	background-image: url(https://downloops.com/wp-content/uploads/edd/2017/05/Starfield-Stars-Universe-FlyBy-Motion-Background-Video-Loop-SampleStill-1.jpg);
+
+	/* background-image: url(https://downloops.com/wp-content/uploads/edd/2017/05/Starfield-Stars-Universe-FlyBy-Motion-Background-Video-Loop-SampleStill-1.jpg); */
 }
+.bgvideo {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	/* display: flex; */
+	min-width: 100%;
+	min-height: 100%;
+	height: auto;
+	width: auto;
+	z-index: -11;
+}
+
 a {
 	text-decoration: none;
 	transition: all 1s;
