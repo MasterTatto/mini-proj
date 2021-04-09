@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 28px;
+}
+body {
+	display: flex;
+	padding: 0 25px;
+	background-image: url(https://downloops.com/wp-content/uploads/edd/2017/05/Starfield-Stars-Universe-FlyBy-Motion-Background-Video-Loop-SampleStill-1.jpg);
+}
+a {
+	text-decoration: none;
+	transition: all 1s;
+	color: white;
+}
+a:hover {
+	color: #d10050;
+	text-shadow: 3px 2px 5px red;
+	transform: scale(1.5);
+}
+.wrapper {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
+	margin: 100px auto;
+	width: 1400px;
+	height: 700px;
+	/* border: 1px solid black; */
+	box-shadow: 6px 5px 50px 1px rgb(209, 1, 228);
+	background-image: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701925518.jpg);
+	background-size: cover;
+	background-position: center center;
+	border-radius: 70px;
+}
