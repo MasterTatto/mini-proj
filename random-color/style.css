@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 28px;
+}
+body {
+	background-color: #fff;
+}
+.wrap {
+	padding-top: 20%;
+	margin: 0 auto;
+	max-width: 500px;
+	text-align: center;
+}
+.wrap span {
+	margin-top: 20px;
+	display: block;
+}
+.btn {
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 10px 35px;
+	color: white;
+	border-radius: 10px;
+	background-color: rgb(96, 211, 2);
+	transition: all 0.5s;
+}
+.btn:hover {
+	background-color: rgb(206, 0, 233);
+	transform: scale(1.05);
+}
+.home {
+	margin: 50px auto;
+	width: 100px;
+}
