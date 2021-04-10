@@ -10,7 +10,7 @@ body {
 	/* background-image: url(https://downloops.com/wp-content/uploads/edd/2017/05/Starfield-Stars-Universe-FlyBy-Motion-Background-Video-Loop-SampleStill-1.jpg); */
 }
 .bgvideo {
-	position: absolute;
+	position: fixed;
 	right: 0;
 	bottom: 0;
 	display: flex;
